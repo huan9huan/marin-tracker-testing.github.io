@@ -24,10 +24,12 @@
 ### PROD
 
 * [PROD Marin Vegas](http://69.194.129.38/tracker/status/tracker-cloud-service)
-* [PROD AWS North California Region](http://xxx.us-west-1.elb.amazonaws.com/tracker/status/tracker-cloud-service)
 * [PROD AWS North Virginia Region](http://prod-t4fe-vip-va-1927239109.us-east-1.elb.amazonaws.com/tracker/status/tracker-cloud-service)
-* [PROD AWS Frankfurt Region](http://xxx.eu-central-1.elb.amazonaws.com/tracker/status/tracker-cloud-service)
-* [PROD AWS Ireland Region](http://xxx.eu-west-1.elb.amazonaws.com/tracker/status/tracker-cloud-service)
+* [PROD AWS Frankfurt Region](prod-t4fe-vip-de-571925571.eu-central-1.elb.amazonaws.com/tracker/status/tracker-cloud-service)
+* [PROD AWS Ireland Region](prod-t4fe-vip-ie-1343056182.eu-west-1.elb.amazonaws.com/tracker/status/tracker-cloud-service)
+
+#### Deprecated
+* [PROD AWS North California Region](http://xxx.us-west-1.elb.amazonaws.com/tracker/status/tracker-cloud-service)
 * [PROD AWS Tokyo Region](http://xxx.ap-northeast-1.elb.amazonaws.com/tracker/status/tracker-cloud-service)
 
 
