@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Marin Tag Tests</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/css/bootstrap.css">
+</head>
+
+<body>
+<div>
+  <div class="jumbotron">
+  <h2>  Normal Marin Tracker Click Tag</h2>
+</div>
+</div>
+
+<!-- BEGIN: Marin Software Tracking Script (Landing Page) -->
+<script type='text/javascript'>
+var _mTrack = _mTrack || [];
+_mTrack.push(['useAmpClientId']);
+_mTrack.push(['trackPage']);
+
+(function() {
+var mClientId = 'fkjrl0udfb';
+var mProto = (('https:' == document.location.protocol) ? 'https://' : 'http://');
+var mHost = 'qa-tracker.marinsm.com';
+
+var mt = document.createElement('script'); mt.type = 'text/javascript'; mt.async = true; mt.src = mProto + mHost + '/tracker/async_amp/' + mClientId + '.js';
+var fscr = document.getElementsByTagName('script')[0]; fscr.parentNode.insertBefore(mt, fscr);
+})();
+</script>
+<noscript>
+<img width="1" height="1" src="https://qa-tracker.marinsm.com/tp?act=1&cid=24l339123&script=no" />
+</noscript>
+<!-- END: Copyright Marin Software -->
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="./js/main.js"></script>
+
+  <!-- Facebook Pixel Code -->
+
+</body>
+
+</html>
